@@ -1,0 +1,46 @@
+[2018-06-20 19:49:57] local.ERROR: InvalidArgumentException: Command "make" is not defined.
+
+Did you mean one of these?
+    make:controller
+    make:middleware
+    make:migration
+    make:listener
+    make:provider
+    make:command
+    make:console
+    make:request
+    make:policy
+    make:seeder
+    make:event
+    make:model
+    make:test
+    make:job in C:\Users\narinder\blog\vendor\symfony\console\Application.php:523
+Stack trace:
+#0 C:\Users\narinder\blog\vendor\symfony\console\Application.php(187): Symfony\Component\Console\Application->find('make')
+#1 C:\Users\narinder\blog\vendor\symfony\console\Application.php(114): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\narinder\blog\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\narinder\blog\artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2018-06-20 19:50:06] local.ERROR: InvalidArgumentException: Command "make" is not defined.
+
+Did you mean one of these?
+    make:controller
+    make:middleware
+    make:migration
+    make:listener
+    make:provider
+    make:command
+    make:console
+    make:request
+    make:policy
+    make:seeder
+    make:event
+    make:model
+    make:test
+    make:job in C:\Users\narinder\blog\vendor\symfony\console\Application.php:523
+Stack trace:
+#0 C:\Users\narinder\blog\vendor\symfony\console\Application.php(187): Symfony\Component\Console\Application->find('make')
+#1 C:\Users\narinder\blog\vendor\symfony\console\Application.php(114): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\narinder\blog\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\narinder\blog\artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
